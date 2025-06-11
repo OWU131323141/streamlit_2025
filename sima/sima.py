@@ -19,7 +19,7 @@ if st.button("旅行先を診断する..."):
         st.subheader("あなたにおすすめの島は… **男木島（香川県）**！")
         col1, col2 = st.columns([1,2])
         with col1:
-            st.image("sima/10000963.jpg", caption="男木島", use_column_width = True)
+            st.image("sima/10000963.jpg", caption="男木島")
         with col2:
             st.markdown("""
                         **島の紹介** :<br>
@@ -35,7 +35,7 @@ if st.button("旅行先を診断する..."):
         st.subheader("あなたにおすすめの島は… **与論島（鹿児島県）**！")
         col1, col2 = st.columns([1,2])
         with col1:
-            st.image("sima/download-wallpaper-01.jpg", caption="与論島", use_column_width = True)
+            st.image("sima/download-wallpaper-01.jpg", caption="与論島")
         with col2:
             st.markdown("""
                         **島の紹介** :<br>
@@ -50,7 +50,7 @@ if st.button("旅行先を診断する..."):
         st.subheader("あなたにおすすめの島は… **久米島（沖縄県）**！")
         col1, col2 = st.columns([1,2])
         with col1:
-            st.image("sima/038T0A7375_s.jpg", caption="久米島", use_column_width = True)
+            st.image("sima/038T0A7375_s.jpg", caption="久米島")
         with col2:
             st.markdown("""
                         **島の紹介** :<br>
@@ -65,7 +65,7 @@ if st.button("旅行先を診断する..."):
         st.subheader("あなたにおすすめの島は… **青ヶ島（東京都）**！")
         col1, col2 = st.columns([1,2])
         with col1:
-            st.image("sima/landscape_img25.jpg", caption="青ヶ島", use_column_width = True)
+            st.image("sima/landscape_img25.jpg", caption="青ヶ島")
         with col2:
             st.markdown("""
                         **島の紹介** :<br>
@@ -80,7 +80,7 @@ if st.button("旅行先を診断する..."):
         st.subheader("あなたにおすすめの島は… **天草諸島（熊本県）**！")
         col1, col2 = st.columns([1,2])
         with col1:
-            st.image("sima/20210601175138-21900e42-me.jpg", caption="天草諸島", use_column_width = True)
+            st.image("sima/20210601175138-21900e42-me.jpg", caption="天草諸島")
         with col2:
             st.markdown("""
                         **島の紹介** :<br>
