@@ -14,7 +14,7 @@ st.markdown(
 st.header("旅行先におすすめの島診断🗾")
 
 st.markdown('<p style="font-size:15px; font-weight:bold;">どの季節に旅行したいですか？</p>', unsafe_allow_html=True)
-kisetu = st.radio(["春🌸","夏🌳","秋🍂","冬⛄"])
+kisetu = st.radio["春🌸","夏🌳","秋🍂","冬⛄"]
 print(kisetu)
 
 kotoba = st.radio("この中で一番惹かれる言葉は？",["神秘的✨","のんびり🐢","ワイルド💪"])
