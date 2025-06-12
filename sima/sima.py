@@ -34,13 +34,13 @@ if st.button("旅行先を診断する..."):
             st.image("sima/10000963.jpg", caption="男木島")
         with col2:
             st.markdown("""
-                        <p style="font-size:15px; font-weight:bold;">島の紹介</p>
+                        <p style="font-size:15px; font-weight:bold;">どんな島？</p>
                         男木島はアートと猫の島。迷路のような路地や坂道が魅力的で、瀬戸内国際芸術祭の作品をめぐるのにもぴったり。<br>
-                        **こんな人におすすめ！**<br>
+                        <p style="font-size:15px; font-weight:bold;">こんな人におすすめ！</p>
                         ・静かに過ごしたい<br>
                         ・写真が好き<br>
                         ・一人旅や友達との気ままな旅行がしたい<br>
-                        **おすすめの季節**<br>春・秋
+                        <p style="font-size:15px; font-weight:bold;">おすすめの季節</p>春・秋
                         """, unsafe_allow_html=True)
             
     elif kotoba in ["神秘的✨", "のんびり🐢"] and motimono in ["カメラ📸", "水着👙"] and kisetu in ["夏🌳","冬⛄"]:
