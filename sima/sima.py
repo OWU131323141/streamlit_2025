@@ -17,11 +17,11 @@ st.markdown('<br><p style="font-size:18px; font-weight:bold;">どの季節に旅
 kisetu = st.radio("この中から一つ選んでください",["春🌸","夏🌳","秋🍂","冬⛄"])
 print(kisetu)
 
-st.markdown('<br><p style="font-size:18px; font-weight:bold;">この中で一番惹かれる言葉は？</p>', unsafe_allow_html=True)
+st.markdown('<p style="font-size:18px; font-weight:bold;">この中で一番惹かれる言葉は？</p>', unsafe_allow_html=True)
 kotoba = st.radio("この中から一つ選んでください",["神秘的✨","のんびり🐢","ワイルド💪"])
 print(kotoba)
 
-st.markdown('<br><p style="font-size:18px; font-weight:bold;">この中で１つだけ持っていけるとしたら？</p>', unsafe_allow_html=True)
+st.markdown('<p style="font-size:18px; font-weight:bold;">この中で１つだけ持っていけるとしたら？</p>', unsafe_allow_html=True)
 motimono = st.radio("この中から一つ選んでください",["カメラ📸","水着👙","スニーカー👟"])
 print(motimono)
 
