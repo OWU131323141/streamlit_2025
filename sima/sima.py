@@ -34,7 +34,7 @@ if st.button("旅行先を診断する..."):
             st.image("sima/10000963.jpg", caption="男木島")
         with col2:
             st.markdown("""
-                        **島の紹介**<br>
+                        <p style="font-size:15px; font-weight:bold;">島の紹介</p>
                         男木島はアートと猫の島。迷路のような路地や坂道が魅力的で、瀬戸内国際芸術祭の作品をめぐるのにもぴったり。<br>
                         **こんな人におすすめ！**<br>
                         ・静かに過ごしたい<br>
