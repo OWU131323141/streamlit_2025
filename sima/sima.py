@@ -13,21 +13,21 @@ st.markdown(
 
 st.header("旅行先におすすめの島診断🗾")
 
-st.markdown('<br><p style="font-size:20px; font-weight:bold; ">どの季節に旅行したいですか？</p>', unsafe_allow_html=True)
+st.markdown('<br><p style="font-size:20px; font-weight:bold;">どの季節に旅行したいですか？</p>', unsafe_allow_html=True)
 kisetu = st.radio("この中から一つ選んでください",["春🌸","夏🌳","秋🍂","冬⛄"])
 print(kisetu)
 
-st.markdown('<p style="font-size:20px; font-weight:bold; color:#267CA7;">この中で一番惹かれる言葉は？</p>', unsafe_allow_html=True)
+st.markdown('<p style="font-size:20px; font-weight:bold;">この中で一番惹かれる言葉は？</p>', unsafe_allow_html=True)
 kotoba = st.radio("この中から一つ選んでください",["神秘的✨","のんびり🐢","ワイルド💪"])
 print(kotoba)
 
-st.markdown('<p style="font-size:20px; font-weight:bold; color:#267CA7;">この中で１つだけ持っていけるとしたら？</p>', unsafe_allow_html=True)
+st.markdown('<p style="font-size:20px; font-weight:bold;">この中で１つだけ持っていけるとしたら？</p>', unsafe_allow_html=True)
 motimono = st.radio("この中から一つ選んでください",["カメラ📸","水着👙","スニーカー👟"])
 print(motimono)
 
 if st.button("旅行先を診断する..."):
     if kotoba == "のんびり🐢" and motimono in ["カメラ📸","スニーカー👟"] and kisetu in ["春🌸","秋🍂"]:
-        st.markdown('<h3 style="color:#267CA7;">あなたにおすすめの島は…男木島(香川県)！</h3>', unsafe_allow_html=True)
+        st.markdown('<h3>あなたにおすすめの島は…男木島(香川県)！</h3>', unsafe_allow_html=True)
         col1, col2 = st.columns([1,2])
         with col1:
             st.image("sima/10000963.jpg", caption="男木島")
@@ -43,7 +43,7 @@ if st.button("旅行先を診断する..."):
                         """, unsafe_allow_html=True)
             
     elif kotoba in ["神秘的✨", "のんびり🐢"] and motimono in ["カメラ📸", "水着👙"] and kisetu in ["夏🌳","冬⛄"]:
-        st.markdown('<h3 style="color:#267CA7;">あなたにおすすめの島は…与論島(鹿児島県)！"</h3>', unsafe_allow_html=True)
+        st.markdown('<h3>あなたにおすすめの島は…与論島(鹿児島県)！"</h3>', unsafe_allow_html=True)
         col1, col2 = st.columns([1,2])
         with col1:
             st.image("sima/download-wallpaper-01.jpg", caption="与論島")
@@ -58,7 +58,7 @@ if st.button("旅行先を診断する..."):
                         **おすすめの季節** : 夏、冬
                         """, unsafe_allow_html=True)
     elif kotoba == "のんびり🐢" and motimono == "水着👙" and kisetu in ["春🌸","秋🍂"]:
-        st.markdown('<h3 style="color:#267CA7;">あなたにおすすめの島は…久米島(沖縄県)！</h3>', unsafe_allow_html=True)
+        st.markdown('<h3>あなたにおすすめの島は…久米島(沖縄県)！</h3>', unsafe_allow_html=True)
         col1, col2 = st.columns([1,2])
         with col1:
             st.image("sima/038T0A7375_s.jpg", caption="久米島")
@@ -73,7 +73,7 @@ if st.button("旅行先を診断する..."):
                         **おすすめの季節** : 春、秋
                         """, unsafe_allow_html=True)
     elif kotoba == "ワイルド💪" and motimono in ["スニーカー👟", "水着👙","カメラ📸"] and kisetu in ["夏🌳","秋🍂"]:
-        st.markdown('<h3 style="color:#267CA7;">あなたにおすすめの島は…青ヶ島(東京都)！</h3>', unsafe_allow_html=True)
+        st.markdown('<h3>あなたにおすすめの島は…青ヶ島(東京都)！</h3>', unsafe_allow_html=True)
         col1, col2 = st.columns([1,2])
         with col1:
             st.image("sima/landscape_img25.jpg", caption="青ヶ島")
@@ -89,7 +89,7 @@ if st.button("旅行先を診断する..."):
                         """, unsafe_allow_html=True)
 
     elif kotoba == "神秘的✨" and motimono == "カメラ📸" and kisetu in ["春🌸","秋🍂"]:
-        st.markdown('<h3 style="color:#267CA7;">あなたにおすすめの島は…屋久島(鹿児島県)！</h3>', unsafe_allow_html=True)
+        st.markdown('<h3>あなたにおすすめの島は…屋久島(鹿児島県)！</h3>', unsafe_allow_html=True)
         col1, col2 = st.columns([1,2])
         with col1:
             st.image("sima/pic-wilson-dr.jpg", caption="屋久島")
@@ -104,7 +104,7 @@ if st.button("旅行先を診断する..."):
                         **おすすめの季節** : 春、秋
                         """, unsafe_allow_html=True)
     elif kotoba == "神秘的✨" and motimono == "水着👙" and kisetu in ["春🌸","秋🍂"]:
-        st.markdown('<h3 style="color:#267CA7;">あなたにおすすめの島は…与那国島(沖縄県)！</h3>', unsafe_allow_html=True)
+        st.markdown('<h3>あなたにおすすめの島は…与那国島(沖縄県)！</h3>', unsafe_allow_html=True)
         col1, col2 = st.columns([1, 2])
         with col1:
             st.image("sima/019aozora_02397A_TP_V.jpg", caption="与那国島")
@@ -119,7 +119,7 @@ if st.button("旅行先を診断する..."):
                         **おすすめの季節** : 夏、秋
                         """, unsafe_allow_html=True)
     elif kotoba in ["神秘的✨", "ワイルド💪"] and motimono == "スニーカー👟" and kisetu in ["春🌸","冬⛄"]:
-        st.markdown('<h3 style="color:#267CA7;">あなたにおすすめの島は…奥尻島(北海道)！</h3>', unsafe_allow_html=True)
+        st.markdown('<h3>あなたにおすすめの島は…奥尻島(北海道)！</h3>', unsafe_allow_html=True)
         col1, col2 = st.columns([1, 2])
         with col1:
             st.image("sima/AdobeStock_567979284_Preview.jpeg", caption="奥尻島")
@@ -135,7 +135,7 @@ if st.button("旅行先を診断する..."):
                         **おすすめの季節** : 春、冬
                         """, unsafe_allow_html=True)
     elif kotoba == "ワイルド💪" and motimono in ["カメラ📸", "水着👙"] and kisetu in ["春🌸", "冬⛄"]:
-        st.markdown('<h3 style="color:#267CA7;">あなたにおすすめの島は…種子島(鹿児島県)！"</h3>', unsafe_allow_html=True)
+        st.markdown('<h3>あなたにおすすめの島は…種子島(鹿児島県)！"</h3>', unsafe_allow_html=True)
         col1, col2 = st.columns([1, 2])
         with col1:
             st.image("sima/332.jpg", caption="種子島")
@@ -152,7 +152,7 @@ if st.button("旅行先を診断する..."):
                         **おすすめの季節** : 春、冬
                         """, unsafe_allow_html=True)
     elif kotoba == "神秘的✨" and motimono == "スニーカー👟" and kisetu in ["夏🌳", "秋🍂"]:
-        st.markdown('<h3 style="color:#267CA7;">あなたにおすすめの島は…礼文島(北海道)！</h3>', unsafe_allow_html=True)
+        st.markdown('<h3>あなたにおすすめの島は…礼文島(北海道)！</h3>', unsafe_allow_html=True)
         col1, col2 = st.columns([1, 2])
         with col1:
             st.image("sima/kanko_50_l.jpg", caption="礼文島")
@@ -169,7 +169,7 @@ if st.button("旅行先を診断する..."):
                         **おすすめの季節** : 夏、秋
                         """, unsafe_allow_html=True)
     elif kotoba == "のんびり🐢" and motimono == "スニーカー👟" and kisetu in ["夏🌳", "冬⛄"]:
-        st.markdown('<h3 style="color:#267CA7;">あなたにおすすめの島は…利尻島(北海道)！"</h3>', unsafe_allow_html=True)
+        st.markdown('<h3>あなたにおすすめの島は…利尻島(北海道)！"</h3>', unsafe_allow_html=True)
         col1, col2 = st.columns([1, 2])
         with col1:
             st.image("sima/りしぷら-夜空㈫.jpg", caption="利尻島")
