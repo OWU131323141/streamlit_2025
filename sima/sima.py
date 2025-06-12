@@ -24,7 +24,7 @@ print(motimono)
 
 if st.button("旅行先を診断する..."):
     if kotoba == "のんびり🐢" and motimono in ["カメラ📸","スニーカー👟"] and kisetu in ["春🌸","秋🍂"]:
-        st.subheader("あなたにおすすめの島は… **男木島（香川県）**！")
+        st.markdown('<h3 style="color:#1abc9c;">あなたにおすすめの島は… **男木島（香川県）**！</h3>', unsafe_allow_html=True)
         col1, col2 = st.columns([1,2])
         with col1:
             st.image("sima/10000963.jpg", caption="男木島")
