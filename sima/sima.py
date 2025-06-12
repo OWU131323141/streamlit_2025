@@ -8,7 +8,7 @@ print(kisetu)
 kotoba = st.radio("この中で一番惹かれる言葉は？",["神秘的✨","のんびり🐢","ワイルド💪"])
 print(kotoba)
 
-motimono = st.radio("この中で１つだけ持っていけるとしたら？",["カメラ👟","水着👙","スニーカー👟"])
+motimono = st.radio("この中で１つだけ持っていけるとしたら？",["カメラ📸","水着👙","スニーカー👟"])
 print(motimono)
 
 if st.button("旅行先を診断する..."):
