@@ -4,7 +4,8 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: 	#CAE8E2;
+        background-color: #BCE1DF;
+        color: #267CA7;
     }
     </style>
     """,
@@ -13,7 +14,7 @@ st.markdown(
 
 st.header("旅行先におすすめの島診断🗾")
 
-st.markdown('<br><p style="font-size:20px color:#267CA7; font-weight:bold;">どの季節に旅行したいですか？</p>', unsafe_allow_html=True)
+st.markdown('<br><p style="font-size:20px font-weight:bold color:#267CA7;">どの季節に旅行したいですか？</p>', unsafe_allow_html=True)
 kisetu = st.radio("この中から一つ選んでください",["春🌸","夏🌳","秋🍂","冬⛄"])
 print(kisetu)
 
