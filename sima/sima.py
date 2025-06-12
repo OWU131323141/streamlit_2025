@@ -12,7 +12,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.header("*.○。・.旅行先におすすめの島診断.。：*。○")
+st.header("〰〰〰〰旅行先におすすめの島診断〰〰〰〰")
 
 st.markdown('<br><p style="font-size:20px; font-weight:bold;">どの季節に旅行したいですか？</p>', unsafe_allow_html=True)
 kisetu = st.radio("この中から一つ選んでください",["春🌸","夏🌳","秋🍂","冬⛄"])
