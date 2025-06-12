@@ -4,7 +4,7 @@ st.markdown(
     """
     <style>
     body {
-        background-color: #f0f8ff;  /* ここを好きな色に変更してください */
+        background-color: #6D8346;
     }
     </style>
     """,
