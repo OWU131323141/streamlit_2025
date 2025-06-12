@@ -1,5 +1,16 @@
 import streamlit as st
 
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #f0f8ff;  /* ここを好きな色に変更してください */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.header("旅行先におすすめの島診断🗾")
 
 kisetu = st.radio("旅行したい季節は？",["春🌸","夏🌳","秋🍂","冬⛄"])
