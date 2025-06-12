@@ -4,7 +4,6 @@ st.markdown(
     """
     <style>
     .stApp {
-        text-align:center;
         background-color: #D2DAFF;
         color: #150050;
     }
